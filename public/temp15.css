@@ -1,0 +1,158 @@
+.nav-link {
+    color: rgb(2, 2, 61) !important ;
+    font-weight: 600;
+}
+.welcome-img {
+    width: 400px;
+    height: 400px;
+
+}
+.yellow-button {
+    background-color: rgb(255, 217, 0);
+    padding: 5px 25px;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+
+}
+.blue-button {
+    background-color: rgb(2, 2, 61);
+    padding: 5px 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+
+}
+hr {
+    background-color:rgb(66, 156, 247);
+    text-align: center;
+    height: 100px;
+    width: 50px;
+    
+}
+.video {
+    background: linear-gradient(rgba(1, 21, 87, 0.8),transparent),url(./assets/video.jpg);
+    height: 400px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.video h2{
+    color: white;
+}
+.video p{
+    color: rgb(83, 129, 182);
+}
+
+.play-button{
+    background:none;
+    border-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.number {
+    background: linear-gradient(rgba(1, 21, 87, 0.8),transparent),url(./assets/video.jpg);
+    height: 400px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.number .col{
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.number h1 {
+    font-size: 60px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    border-bottom:2px solid rgb(255, 217, 0) ;
+}
+.info {
+    border: 1px solid rgb(214, 211, 211) ;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.latest-img {
+    width: 100%;
+    height: 110px;
+
+}
+.upcoming-img {
+    width: 100%;
+    height: 110px;
+}
+.footer-div{
+    background-color: rgb(2, 2, 61);
+    color: white;
+    padding: 80px 60px;
+}
+.icon-div{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid rgb(83, 129, 182);
+    color: rgb(83, 129, 182);
+}
+.info-icon{
+    color: rgb(255, 217, 0);
+    padding: 7px;
+}
+.flikr-img{
+    width: 80px;
+    height: 70px;
+}
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: rgb(255, 217, 0); 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 50%; 
+    font-size: 18px; 
+    transition: all 0.5s ease;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(216, 184, 2); 
+  }
+  .head-div {
+      background-image: url(./assets/head.jpg);
+      background-position: center;
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding-left: 50px;
+      
+  }
+

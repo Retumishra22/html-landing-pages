@@ -1,0 +1,99 @@
+body{
+    overflow-x: hidden;
+}
+.yellow-button {
+    background-color: yellow;
+    padding: 5px 25px;
+    border-radius: 25px;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+.hero-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 370px;
+    background-color: rgb(96, 188, 219);
+    margin-bottom: 40px;
+}
+.hero-heading {
+    color: white;
+    font-size: 40px;
+
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    
+
+}
+.description-heading {
+    color: black;
+}
+.icon-wrapper {
+    background-color: rgb(96, 188, 219);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feedback-div {
+    background-color: rgb(6, 17, 48);
+    padding: 30px 50px;
+    margin-bottom: 40px;
+}
+.color-box{
+    background-color: salmon;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(252, 169, 160);
+}
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:10px;
+    margin-top: 20px;
+}
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color:rgb(66, 156, 247); 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 50%; 
+    font-size: 18px; 
+    transition: all 0.5s ease;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(1, 72, 143); 
+  }
+
+  .middle{
+      background-color: rgb(216, 216, 216) !important;
+      text-align: center;
+    }
